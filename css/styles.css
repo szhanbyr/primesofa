@@ -765,7 +765,7 @@ footer {
     content: '+';
     font-size: 1.8rem;
     color: #D4A017;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .faq-item.active .faq-question::after {
@@ -776,7 +776,6 @@ footer {
 .faq-answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease;
 }
 
 .faq-item.active .faq-answer {
